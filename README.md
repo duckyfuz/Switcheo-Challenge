@@ -4,7 +4,7 @@ Completed in `./'Problem 1'`
 
 # Problem 2
 
-Completed with `create-react-app` in `./'Problem 2'`
+Completed with `create-react-app` in `./'Problem 2'`   
 Utilised MUI library.
 
 # Problem 3
@@ -13,10 +13,12 @@ Completed with in `./'Problem 3'/datasource.js`
 
 # Problem 4
 
-Completed in `./'Problem 4'/retrieve-holders.ts`
+Completed in `./'Problem 4'/retrieve-holders.ts`   
 Utilised ethers library.
 
 # Problem 5
+
+Unable to solve.
 
 # Problem 7
 
