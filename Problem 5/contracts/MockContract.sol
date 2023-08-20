@@ -1,20 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract MockContract {
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-  uint public totalSupply;
+contract MockContract is ERC20 {
 
-  constructor() {
-    totalSupply = 1000000; 
-  }
-
-  function transfer(address to, uint amount) external {
-    // Fake transfer
-  }
-
-  function balanceOf(address) view external returns (uint) {
-    return totalSupply;
-  }
+    constructor() ERC20("MockContract", "MCK") {
+        _mint(msg.sender, 1000000 * (10 ** decimals()));
+    }
 
 }
