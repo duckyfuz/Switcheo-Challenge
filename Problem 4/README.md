@@ -1,14 +1,3 @@
-<aside>
-⏰ Duration: You should not spend more than **8 hours** on this problem.
-*Time estimation is for internship roles, if you are a software professional you should spend significantly less time.*
-
-</aside>
-
-<aside>
-⚠️ **TypeScript Only** - you are to complete this problem using TypeScript.
-
-</aside>
-
 # Task
 
 Implement a script to retrieve the specified holders of [$SWTH token](https://bscscan.com/token/0x250b211ee44459dad5cd3bca803dd6a7ecb5d46c) on the [Binance Smart Chain](https://coinmarketcap.com/alexandria/article/what-is-binance-smart-chain) network.

@@ -1,9 +1,3 @@
-<aside>
-⏰ Duration: You should not spend more than **3 hours** on this problem.
-*Time estimation is for internship roles, if you are a software professional you should spend significantly less time.*
-
-</aside>
-
 # Task
 
 Tables:
