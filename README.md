@@ -18,13 +18,13 @@ Utilised ethers library.
 
 # Problem 5
 
-Completed in `./'Problem 5'/contracts/TokenBalanceReader.sol`
+Completed in `./'Problem 5'/contracts/TokenBalanceReader.sol`  
 However, when trying to return an array of hashmaps in the contract, I constantly encountered the following error:
 ```
 Types containing (nested) mappings can only be parameters or return variables of internal or library functions.
 ```
 Hence, I created a slight workaround in `./'Problem 5'/test.js` such that the return value of the console logged value from the JS file would be in the required format:
-```json
+```js
 [
   {
     token: "0x123d475e13aa54a43a7421d94caa4459da021c77",

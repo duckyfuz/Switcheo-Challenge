@@ -36,7 +36,7 @@ test().then(console.log);
 
 The output should be organized as one `token amount` per object. 
 
-```json
+```js
 [
   {
     token: "0x123d475e13aa54a43a7421d94caa4459da021c77",
