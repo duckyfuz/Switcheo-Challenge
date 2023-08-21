@@ -13,6 +13,6 @@ contract("TokenBalanceReader", (accounts) => {
     let balance = await contract.getTokenBalances(accounts[0], [token.address]);
 
     console.log(balance.toString());
-    assert.equal(balance.toString(), "100");
+    assert.equal(balance[0][1], "100");
   });
 });
